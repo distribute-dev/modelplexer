@@ -1,5 +1,5 @@
-# 🍝 Ragoo /ræɡˈuː/
-> Like the pasta dish.
+# dagen
+> d(istributed)agen(ts)
 
 ## Overview
 Create Agents and RAG workflows with little to no code.
