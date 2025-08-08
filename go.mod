@@ -1,4 +1,4 @@
-module github.com/cohix/ragoo
+module github.com/cohix/modelplexer
 
 go 1.22
 
