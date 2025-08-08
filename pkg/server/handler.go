@@ -7,8 +7,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/runner"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/runner"
 )
 
 func (s *Server) handlerForRoute(route config.Route) http.HandlerFunc {

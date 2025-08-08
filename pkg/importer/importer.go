@@ -1,6 +1,6 @@
 package importer
 
-import "github.com/cohix/ragoo/pkg/storage"
+import "github.com/cohix/modelplexer/pkg/storage"
 
 // Importer represents an importer for a given data source
 type Importer interface {

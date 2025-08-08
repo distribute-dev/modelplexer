@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/cohix/ragoo/pkg/config"
+	"github.com/cohix/modelplexer/pkg/config"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cohix/ragoo/pkg/storage"
+	"github.com/cohix/modelplexer/pkg/storage"
 	"github.com/jonathanhecl/chunker"
 )
 

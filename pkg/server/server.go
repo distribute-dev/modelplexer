@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/cohix/ragoo/pkg/config"
+	"github.com/cohix/modelplexer/pkg/config"
 )
 
 type Server struct {

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/importer"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/importer"
 )
 
 // StartImporter starts the provided importer on a goroutine

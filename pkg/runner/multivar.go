@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cohix/ragoo/pkg/embedder"
-	"github.com/cohix/ragoo/pkg/importer"
-	"github.com/cohix/ragoo/pkg/service"
-	"github.com/cohix/ragoo/pkg/storage"
-	"github.com/cohix/ragoo/pkg/tool"
+	"github.com/cohix/modelplexer/pkg/embedder"
+	"github.com/cohix/modelplexer/pkg/importer"
+	"github.com/cohix/modelplexer/pkg/service"
+	"github.com/cohix/modelplexer/pkg/storage"
+	"github.com/cohix/modelplexer/pkg/tool"
 )
 
 // Multivar represents one of several types of variables

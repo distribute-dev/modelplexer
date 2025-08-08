@@ -3,8 +3,8 @@ package runner
 import (
 	"fmt"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/service"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/service"
 )
 
 func (r *Runner) runService(stp config.Step, vars map[string]Multivar) (*Multivar, string, error) {

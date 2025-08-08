@@ -1,6 +1,6 @@
 package runner
 
-import "github.com/cohix/ragoo/pkg/config"
+import "github.com/cohix/modelplexer/pkg/config"
 
 // Runner is an orchestrator for workflows and importers
 type Runner struct {

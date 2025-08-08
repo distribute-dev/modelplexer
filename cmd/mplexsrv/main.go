@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/runner"
-	"github.com/cohix/ragoo/pkg/server"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/runner"
+	"github.com/cohix/modelplexer/pkg/server"
 )
 
 func main() {
@@ -16,7 +16,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	slog.Info("--- Starting Modelplexer --- ")
+	slog.Info("--- Starting Modelplexer Server--- ")
 
 	config, err := config.ReadConfigFromFile(os.Args[1])
 	if err != nil {

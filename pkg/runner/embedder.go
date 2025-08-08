@@ -3,8 +3,8 @@ package runner
 import (
 	"fmt"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/embedder"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/embedder"
 )
 
 func (r *Runner) runEmbedder(stp config.Step, vars map[string]Multivar) (*Multivar, string, error) {

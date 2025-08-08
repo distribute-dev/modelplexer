@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/cohix/ragoo/pkg/config"
-	"github.com/cohix/ragoo/pkg/storage"
+	"github.com/cohix/modelplexer/pkg/config"
+	"github.com/cohix/modelplexer/pkg/storage"
 )
 
 func (r *Runner) runStorage(stp config.Step, vars map[string]Multivar) (*Multivar, string, error) {
