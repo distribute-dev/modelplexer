@@ -16,7 +16,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	slog.Info("--- Starting Ragoo --- ")
+	slog.Info("--- Starting Modelplexer --- ")
 
 	config, err := config.ReadConfigFromFile(os.Args[1])
 	if err != nil {
